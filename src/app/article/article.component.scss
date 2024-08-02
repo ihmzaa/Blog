@@ -1,0 +1,67 @@
+  
+  .card h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    line-height: 1.6;
+  }
+  
+  .add-blog-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .add-blog-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .logout a {
+    color: #dc3545;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .logout a:hover {
+    color: #c82333;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Elemente nach rechts ausrichten */
+    margin-top: 10px; /* Optional: Abstand nach oben */
+  }
+  
+  .user-profile img {
+    width: 40px; /* Größe des Profilbildes anpassen */
+    height: 40px;
+    border-radius: 50%; /* Rundes Profilbild */
+    margin-right: 10px; /* Abstand zwischen Bild und Text */
+  }
+  
+  .user-profile span {
+    color: #818181; /* Textfarbe für den Benutzernamen */
+    font-weight: bold; /* Fettgedruckte Schrift für den Benutzernamen */
+    text-decoration: none; /* Keine Unterstreichung für den Text */
+  }
+

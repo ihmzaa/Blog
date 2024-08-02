@@ -1,0 +1,88 @@
+.signup form {
+    margin-top: 20px; /* Beispiel: Verschiebe das Formular um 20px nach oben */
+  }
+  
+  .signup label {
+    display: block;
+    margin-bottom: 5px; /* Abstand zwischen den Labels und den Input-Feldern */
+  }
+  
+  .signup input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; /* Abstand zwischen den Input-Feldern */
+    box-sizing: border-box; /* Berücksichtige Padding und Border in der Breite */
+  }
+  
+  .signup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup .error-message {
+    margin-top: 10px; /* Abstand über der Fehlermeldung */
+    
+  }
+  
+  .signup .login {
+    margin-top: 10px; /* Abstand über dem "Sign up" Link */
+  }
+  .signup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Grüne Hintergrundfarbe */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Übergangseffekt für die Hintergrundfarbe */
+  }
+  
+  .signup button:hover {
+    background-color: #218838; /* Dunklere grüne Hintergrundfarbe beim Überfahren */
+  }
+  .signup-link a:hover {
+    color: #0056b3;
+  }
+  .signup-link a {
+    color: #007bff; /* Blaue Farbe für den Link */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Übergangseffekt für Textfarbe */
+  }
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.card h3 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.card h3 {
+  color: #343a40;
+  margin-bottom: 10px;
+}
+.error-message {
+  margin-top: 15px;
+  text-align: center;
+  color: #dc3545; /* Rote Farbe für Fehlermeldungen */
+}
+
+
+

@@ -1,0 +1,27 @@
+
+<div class="user-profile">
+  <img src="login.png" alt="Profile Picture">
+  <div class="navbar">
+    <a (click)="dashboard()">Dashboard</a>
+    
+  </div>
+</div>
+<div class="article-container">
+    <article class="card">
+      <h2>Artikel 1</h2>
+      <p>{{ artTitel }}</p>
+    </article>
+  
+    <article class="card">
+      <h2>Artikel 2</h2>
+      <p>{{ artTitel }}</p>
+    </article>
+  
+    <form (ngSubmit)="AccesstoNewArticle()" class="card">
+      <button type="submit" class="add-blog-btn">Neuen Artikel hinzufügen</button>
+      <div class="logout">
+        <a (click)="logout()">Logout</a>
+      </div>
+      <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+    </form>
+  </div>

@@ -1,0 +1,52 @@
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+ 
+  border-radius: 3px;
+  box-sizing: border-box; /* Berücksichtigt das Padding in der Breite */
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blaue Hintergrundfarbe für Buttons */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Übergangseffekt für Hintergrundfarbe */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Dunkleres Blau beim Hover */
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  color: #343a40; /* Dunkle Textfarbe für den Link */
+}
+
+.signup-link a {
+  color: #007bff; /* Blaue Farbe für den Link */
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Übergangseffekt für Textfarbe */
+}
+
+.signup-link a:hover {
+  color: #0056b3; /* Dunkleres Blau beim Hover */
+}
+
+.error-message {
+  margin-top: 15px;
+  text-align: center;
+  color: #dc3545; /* Rote Farbe für Fehlermeldungen */
+}

@@ -1,0 +1,29 @@
+<article class="article-form">
+  <form (ngSubmit)="addNewArticle()">
+    <div class="form-group">
+      <label for="titel">Titel:</label>
+      <input type="text" id="titel" name="titel" placeholder="Geben Sie hier den Titel ein." [(ngModel)]="newArtikel.newtitel" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="inhalt">Inhalt:</label>
+      <textarea id="inhalt" name="inhalt" placeholder="Geben Sie hier den Inhalt ein." [(ngModel)]="newArtikel.newInhalt" required></textarea>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Artikel hinzufügen</button>
+      <button type="button" class="btn btn-danger" (click)="reset()">Löschen</button> <!-- Hier wurde btn-secondary durch btn-danger ersetzt -->
+    </div>
+  </form>
+  
+  <div class="logout">
+    <a (click)="logout()">Logout</a>
+  </div>
+</article>
+
+<article *ngIf="showNewCard" class="new-articles">
+    <div *ngFor="let article of artikel">
+      <h1>{{ sessionTitel }}</h1>
+      <p>{{ sessionInhalt }}</p>
+    </div>
+</article>

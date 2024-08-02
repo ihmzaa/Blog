@@ -1,0 +1,69 @@
+.article-form .form-group {
+  margin-bottom: 15px;
+}
+
+.article-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.article-form input[type="text"],
+.article-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+ 
+  border-radius: 3px;
+}
+
+.article-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.article-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.article-form button[type="button"] {
+  padding: 10px 20px;
+  background-color: #343a40; /* Dunkles Grau für den Löschen-Button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.article-form button[type="button"]:hover {
+  background-color: #23272b; /* Noch dunkleres Grau beim Hover */
+}
+
+.logout {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.logout a {
+  color: #dc3545;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.new-articles {
+  margin-top: 20px;
+}
+
+.new-articles h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.new-articles p {
+  line-height: 1.6;
+}

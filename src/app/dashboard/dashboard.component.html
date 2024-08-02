@@ -1,0 +1,36 @@
+<div class="container">
+  
+  <div class="article-container">
+    <article>
+      <div class="user-profile">
+        <h1>Welcome, {{ vorname }} {{ nachname }}!</h1>
+      </div>
+      <p><strong>Firstname :</strong> {{ vorname }}</p>
+      <p><strong>Lastname :</strong> {{ nachname }}</p>
+      <p><strong>Email :</strong> {{ email }}</p>
+      <p><strong>Your currently role :</strong> {{ role }}</p>
+      <p><strong>Pick your role please :</strong></p>
+      <label>
+        <input type="radio" name="role" value="owner" (change)="onRoleChange('Owner')"> Owner
+      </label>
+      <label>
+        <input type="radio" name="role" value="crewmate" (change)="onRoleChange('Crewmate')"> Crewmate
+      </label>
+      <label>
+        <input type="radio" name="role" value="intership" (change)="onRoleChange('Intership')"> Intership
+      </label>
+      <label>
+        <input type="radio" name="role" value="guest" (change)="onRoleChange('Guest')"> Guest
+      </label>
+
+      <div *ngIf="showPasswordInput" class="password-container">
+        <p><strong>Please enter your password:</strong></p>
+        <input type="password" [(ngModel)]="password">
+      </div>
+      
+    </article>
+    
+  </div>
+
+  <button type="button" (click)="saveChanges()">Save Changes</button>
+</div>
